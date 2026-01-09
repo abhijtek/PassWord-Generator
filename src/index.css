@@ -1,0 +1,10 @@
+@import "tailwindcss";
+.scaler{
+    transform-origin: top left;
+}
+@media (width < 375px ){
+    .scaler{
+        transform: scale(0.5);
+        width: 200%;
+    }
+}
