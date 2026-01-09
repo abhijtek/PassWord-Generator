@@ -30,7 +30,7 @@ function App() {
   
   return (
     <>
-    
+     
       <div className="scaler">
         <div className="min-w-screen min-h-screen bg-gray-700 flex justify-center items-center flex-col">
           <div className="text-2xl mb-6 text-sky-50 ">Password Generator</div>
@@ -67,7 +67,7 @@ function App() {
               <input type="checkbox" name="numbers" id="numbers"
               onChange={()=>{
                 setNumbersAllowed(!numbersAllowed)
-                // genfun();
+                
               }}
               checked={numbersAllowed} />
               {" "}Numbers
